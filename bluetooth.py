@@ -1,6 +1,6 @@
 # here is some other bluetooth codes that I was able to create using bits and pieces from other resources
 
-from bluetooth import *
+#from bluetooth import *
 # 
 # print("performing inquiry")
 # 
@@ -11,8 +11,8 @@ from bluetooth import *
 # for name, addr in nearby_devices:
 #     print(" %s - %s" % (addr,name))
 # 
-
-
+#____________________________________ New code for searching for a specific device ________________________
+import bluetooth
 
 target_name = "HIVE_HOLOLENS_2"
 target_address = None # mac address of device
